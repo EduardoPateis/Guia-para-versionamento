@@ -31,7 +31,7 @@ ________________________________
 
 Criando o diretório via bash:
 
-*Organize dentro de um diretório para os códigos* 
+*Organize os diretórios para os códigos* 
 
 ```sh
 mkdir nomedorepositório
@@ -44,7 +44,23 @@ Inicializar o git no novo repositório:
 ```sh
 git init
 ```
+Segue os mesmos comandos anteriores:
 
+```sh
+git add .
+git commit -m "Meu Primeiro commit - Adicionado o README.md"
+```
+*Quando esse comando é executado, já cria uma brach "master", não é necessário um comando para criar nova brach "main"*
+
+Para conectar remotamente o repositório, seguem os comandos:
+```sh
+ git remote add oringin https://github.com/meulogingit/meurepositorio.git
+
+```
+* Agora sim, o comando "push":
+```sh
+git push origin master
+```
 _______________________________
 
 
