@@ -98,8 +98,11 @@ git put origin "nome da Branch"
 ```sh
 git branch
 ```
+5 - Enviar as modificações realizadas em um repósitorio local para um resosiório remoto.
 
-
+```sh
+git push
+```
 
 $teste:$ 
 Solução de front end de um e-commerce.
