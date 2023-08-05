@@ -112,7 +112,13 @@ git log
 * 6.1 - Comandos adicionais para o comando "log":
 --oneline - resume a exibição do commit em uma linha simplificada.
 --stat - exibe uma estatítica de quais arquivos foram alterados e a quantidade de linhas alteradas de maneira bem simplificada.
+--author="nome" - irá destacar e exibir apenas os logs relacionados ao autor.
+--grep="texto" - irá exibir uma pesquisa nos commints texto solictido.
 
+7 - Checkout navega entre os comnits ou branches.
+```sh
+git checkout "codigo do commit ou o nome do branch"
+```
 
 $teste:$ 
 
