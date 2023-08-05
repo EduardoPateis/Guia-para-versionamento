@@ -104,6 +104,14 @@ git branch
 git push
 ```
 
+6 - Log
+
+```sh
+git log
+```
+
+
+
 $teste:$ 
 
 Solução de front end de um e-commerce.
