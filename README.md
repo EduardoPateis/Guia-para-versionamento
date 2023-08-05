@@ -65,10 +65,44 @@ _______________________________
 
 
 ------------------------------------------------
-##Atualizando o Status
+##Atualizando
 
-Baixei uma solução teste para testes as funcionalidades dos comanandos.
+#### Observação:
 
+  *Baixei uma solução $"teste"$ para os testes das funcionalidades dos comanandos pra o Github.*
+
+
+
+1 - Consultar o status:
+
+```sh
+git status
+```
+2 - Adicionar todos os novos arquivos e diretórios:
+
+```sh
+git add .
+```
+3 - Adicionar os comentários da edição, "commit":
+
+```sh
+git commit -m "Aqui seus comentários da edição"
+```
+4 - Atualizar o repositório local com as alterações recentes do repositório remoto.
+
+```sh
+git put origin "nome da Branch"
+```
+* 4.1 - Para consultar o branch:
+
+```sh
+git branch
+```
+
+
+
+$teste:$ 
+Solução de front end de um e-commerce.
 ------------------------------------------------
 
 
