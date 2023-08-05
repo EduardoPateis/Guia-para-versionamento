@@ -64,9 +64,12 @@ git push origin master
 _______________________________
 
 
+------------------------------------------------
+##Atualizando o Status
 
+Baixei uma solução teste para testes as funcionalidades dos comanandos.
 
-
+------------------------------------------------
 
 
 
