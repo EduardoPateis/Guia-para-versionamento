@@ -104,12 +104,14 @@ git branch
 git push
 ```
 
-6 - Log
+6 - Verifica o status de versionamento entre o remoto e o local:
 
 ```sh
 git log
 ```
-
+* 5.1 - Comandos adicionais para o comando "log"
+--oneline - resume a exibição do commit em uma linha simplificada.
+--stat - exibe uma estatítica de quais arquivos foram alterados e a quantidade de linhas alteradas de maneira bem simplificada.
 
 
 $teste:$ 
