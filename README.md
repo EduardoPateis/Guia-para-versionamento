@@ -98,14 +98,16 @@ git put origin "nome da Branch"
 ```sh
 git branch
 ```
-5 - Enviar as modificações realizadas em um repósitorio local para um resosiório remoto.
+5 - Enviar as modificações realizadas em um repósitorio local para um resosiório remoto:
 
 ```sh
 git push
 ```
 
 $teste:$ 
+
 Solução de front end de um e-commerce.
+
 ------------------------------------------------
 
 
@@ -157,7 +159,7 @@ Solução de front end de um e-commerce.
 
 
 
-##### Autor:
+## Autor:
 
 *Feito com ❤️ por Eduardo 👋🏽 Entre em contato!*
 
