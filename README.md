@@ -1,6 +1,11 @@
 
-# Aula - Versionamento:
-Aula geral sobre as funcionalidades do GitHub
+# Roteiro Geral para "Versionamento":
+>### Github 
+
+![logo do git](assets/images/github-mark-white.png)
+![logo do git](assets/images/github-mark.png)
+
+Um roteiro simples sobre as funcionalidades do GitHub
 
 ## Adicionado Configurações GitHub:
 --------------------------------
@@ -65,7 +70,7 @@ _______________________________
 
 
 ------------------------------------------------
-##Atualizando
+## Comandos gerais para o git
 
 #### Observação:
 
@@ -115,10 +120,28 @@ git log
 --author="nome" - irá destacar e exibir apenas os logs relacionados ao autor.
 --grep="texto" - irá exibir uma pesquisa nos commints texto solictido.
 
-7 - Checkout navega entre os comnits ou branches.
+7 - Navegação entre os comnits ou branches.
+* 7.1 - Checkout - "Use o "git log" para visualizar o código dos commints.
+
 ```sh
 git checkout "codigo do commit ou o nome do branch"
 ```
+* 7.2 - Revert - Cria um novo comnit sem as alterações do commit selecionado.
+
+```sh
+git revert "codigo do commit ou o nome do branch"
+```
+* 7.3 - Reset - Apaga tudas as alterações do commit selecionado.
+
+```sh
+git reset "codigo do commit ou o nome do branch"
+```
+
+#### Observação:
+  > *__É recomendado o uso do revert, pois a ação pode ser revertida, já o reset ele apaga  definitivamente.__*
+
+
+
 
 $teste:$ 
 
