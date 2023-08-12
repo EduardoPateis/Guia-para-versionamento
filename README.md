@@ -132,22 +132,47 @@ git log
 * 7.1 - Checkout - "Use o "git log" para visualizar o código dos commints.
 
 ```sh
-git checkout "codigo do commit ou o nome do branch"
+git checkout "codigo do commit ou o nome do branch - sem aspas"
 ```
 * 7.2 - Revert - Cria um novo comnit sem as alterações do commit selecionado.
 
 ```sh
-git revert "codigo do commit ou o nome do branch"
+git revert "codigo do commit ou o nome do branch - sem aspas"
 ```
 * 7.3 - Reset - Apaga todas as alterações mantendo o item selecionado.
 
 ```sh
-git reset "codigo do commit ou o nome do branch"
+git reset "codigo do commit ou o nome do branch - sem aspas"
 ```
 
 #### Observação:
 
->* *__É recomendado o uso do revert, pois a ação pode ser revertida, já o reset ele apaga  definitivamente.__*
+>* *__É recomendado o uso do "revert", pois a ação pode ser revertida, já o "reset" ele apaga  definitivamente.__*
+
+---
+8 - Brach - Ramificação do projeto principal.
+* 8.1 Para listar as branches existentes:
+  
+  ```sh
+  git branch
+  ```
+* 8.2 Para criar uma nova branch
+  
+  ```sh
+  git branch "nome da branch - sem aspas"
+  ```
+- 8.3 Para navegar as branches existentes usa-se "checkout"
+  - 8.3.1 Para acessar diretamento a criação da branch, uso o comando "checkout -b".
+  - 8.3.2 Para deletar as branches existentes usa-se o comando "checkout -d".
+
+ ```sh
+  git checkout "nome da branch - sem aspas"
+  git checkout -b "nome da branch - sem aspas"
+  git checkout -d "nome da branch - sem aspas"
+
+  ```
+
+
 
 
 ___
