@@ -1,5 +1,8 @@
 
 # Roteiro Geral para "Versionamento":
+
+
+
 >### Github 
 
 ![logo do git](assets/images/github-mark-white.png)
@@ -66,15 +69,16 @@ Para conectar remotamente o repositório, seguem os comandos:
 ```sh
 git push origin master
 ```
-_______________________________
+___
 
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
-------------------------------------------------
+---
 ## Comandos gerais para o git
 
 #### Observação:
 
-  *Baixei uma solução $"teste"$ para os testes das funcionalidades dos comanandos pra o Github.*
+ *Baixei uma solução $"teste"$ para os testes das funcionalidades dos comanandos pra o Github.*
 
 
 
@@ -83,16 +87,19 @@ _______________________________
 ```sh
 git status
 ```
+---
 2 - Adicionar todos os novos arquivos e diretórios:
 
 ```sh
 git add .
 ```
+---
 3 - Adicionar os comentários da edição, "commit":
 
 ```sh
 git commit -m "Aqui seus comentários da edição"
 ```
+---
 4 - Atualizar o repositório local com as alterações recentes do repositório remoto.
 
 ```sh
@@ -103,12 +110,13 @@ git put origin "nome da Branch"
 ```sh
 git branch
 ```
+---
 5 - Enviar as modificações realizadas em um repósitorio local para um resosiório remoto:
 
 ```sh
 git push
 ```
-
+---
 6 - Verifica o status de versionamento entre o remoto e o local:
 
 ```sh
@@ -119,7 +127,7 @@ git log
 --stat - exibe uma estatítica de quais arquivos foram alterados e a quantidade de linhas alteradas de maneira bem simplificada.
 --author="nome" - irá destacar e exibir apenas os logs relacionados ao autor.
 --grep="texto" - irá exibir uma pesquisa nos commints texto solictido.
-
+---
 7 - Navegação entre os comnits ou branches.
 * 7.1 - Checkout - "Use o "git log" para visualizar o código dos commints.
 
@@ -131,23 +139,27 @@ git checkout "codigo do commit ou o nome do branch"
 ```sh
 git revert "codigo do commit ou o nome do branch"
 ```
-* 7.3 - Reset - Apaga tudas as alterações do commit selecionado.
+* 7.3 - Reset - Apaga todas as alterações mantendo o item selecionado.
 
 ```sh
 git reset "codigo do commit ou o nome do branch"
 ```
 
 #### Observação:
-  > *__É recomendado o uso do revert, pois a ação pode ser revertida, já o reset ele apaga  definitivamente.__*
+
+>* *__É recomendado o uso do revert, pois a ação pode ser revertida, já o reset ele apaga  definitivamente.__*
 
 
+___
+>$teste:$ 
+>_Solução de front end de um e-commerce.
+>By Vitão!_
 
+___
 
-$teste:$ 
+> Roteiro baseado na aula de versionamento da DNC - By Vitão!
 
-Solução de front end de um e-commerce.
-
-------------------------------------------------
+---
 
 
 
