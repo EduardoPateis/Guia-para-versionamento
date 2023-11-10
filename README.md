@@ -170,9 +170,18 @@ git reset "codigo do commit ou o nome do branch - sem aspas"
   git checkout -b "nome da branch - sem aspas"
   git checkout -d "nome da branch - sem aspas"
 
-  ```
+ ```
+ ---
+9 - Arquivo gitignore - Arquivo contendo as intruções para ignorar arquivos, o arquivo sempre terá o nome ".gitignore".
+ Dentro do arquivo terá os dados do diretório ou do arquivo com a extensão.
 
+ Exemplo:
+    Arquivo: .gitignore
+    conteúdo:
+      node_modules
+      config.php
 
+Quando o commint for realizado, os arquivos listados no .gitignore não serão enviados para o repositório online.
 
 
 ___
